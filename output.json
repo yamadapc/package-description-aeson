@@ -1,0 +1,77 @@
+{
+  "package": {
+    "pkgName": {
+      "unPackageName": "package-description-aeson"
+    },
+    "pkgVersion": {
+      "versionBranch": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "versionTags": []
+    }
+  },
+  "license": {
+    "tag": "MIT",
+    "contents": []
+  },
+  "licenseFiles": [
+    "LICENSE"
+  ],
+  "copyright": "Copyright (c) 2015 Pedro Tacla Yamada",
+  "maintainer": "tacla.yamada@gmail.com",
+  "author": "Pedro Tacla Yamada",
+  "stability": "",
+  "testedWith": [],
+  "homepage": "https://github.com/yamadapc/package-description-aeson",
+  "pkgUrl": "",
+  "bugReports": "",
+  "sourceRepos": [],
+  "synopsis": "Provides ToJSON and FromJSON instances for cabal files",
+  "description": "",
+  "category": "Development",
+  "customFieldsPD": [],
+  "buildDepends": [],
+  "specVersionRaw": {
+    "right": {
+      "tag": "UnionVersionRanges",
+      "contents": [
+        {
+          "tag": "ThisVersion",
+          "contents": {
+            "versionBranch": [
+              1,
+              10
+            ],
+            "versionTags": []
+          }
+        },
+        {
+          "tag": "LaterVersion",
+          "contents": {
+            "versionBranch": [
+              1,
+              10
+            ],
+            "versionTags": []
+          }
+        }
+      ]
+    }
+  },
+  "buildType": {
+    "tag": "Simple",
+    "contents": []
+  },
+  "library": null,
+  "executables": [],
+  "testSuites": [],
+  "benchmarks": [],
+  "dataFiles": [],
+  "dataDir": ".",
+  "extraSrcFiles": [],
+  "extraTmpFiles": [],
+  "extraDocFiles": []
+}
